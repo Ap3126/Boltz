@@ -1,0 +1,183 @@
+body {
+	background-color: #809fff;
+}
+
+.navbar {
+	background-color: green;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+  font-family: Georgia;
+  font-size: 25px;
+  background-color: #333;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -o-user-select: none;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+li a:hover {
+	background-color: #111;
+}
+
+.active {
+	background-color: #4CAF50;
+}
+
+#logo {
+  padding: 0px 0px;
+  float: left;
+}
+
+img {
+  width: 170px;
+}
+
+#loginBox {
+  position: relative;
+  padding: 15px;
+  width: 17%;
+  background-color: #d2e0e0;
+  font-size: 40px;
+  font-family: Verdana;
+  border: 4px groove grey;
+  border-radius: 12px;
+  left: 50%;
+  transform: translate(-50%, 75%);
+}
+
+input[type=text] {
+  font-family: Verdana;
+  margin-bottom: 8%;
+  position: relative;
+  width: 100%;
+  padding: 5%;
+  font-size: 20px;
+  border: 2px groove grey;
+  border-radius: 10px;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+input[type=password] {
+  font-family: Verdana;
+  margin-top: -3%;
+  position: relative;
+  width: 100%;
+  padding: 5%;
+  font-size: 20px;
+  border: 2px groove grey;
+  border-radius: 10px;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  margin-top: 5%;
+  width: 100%;
+  padding: 5%;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: Verdana;
+  border-radius: 10px;
+  border: 2px groove grey;
+  background-color: #0073e6;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+#registerbox {
+  position: relative;
+  padding: 15px;
+  width: 17%;
+  background-color: #d2e0e0;
+  font-size: 40px;
+  font-family: Verdana;
+  border: 4px groove grey;
+  border-radius: 12px;
+  left: 50%;
+  transform: translate(-50%, 40%);
+}
+
+input[type=email] {
+  font-family: Verdana;
+  margin-bottom: 8%;
+  position: relative;
+  width: 100%;
+  padding: 5%;
+  font-size: 20px;
+  border: 2px groove grey;
+  border-radius: 10px;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+#title {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  font-family: Cursive;
+  font-size: 70px;
+  display: block;
+  padding: 5px;
+}
+
+#description {
+  position: absolute;
+  left: 6%;
+  top: 37%;
+  font-family: Cursive;
+  font-size: 35px;
+  display: block;
+}
+
+.label {
+  display: block;
+  float: left;
+  padding: 2px 45px;
+}
+
+#play {
+  position: absolute;
+  display: block;
+  float: left;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  padding: 14px;
+  font-family: Cursive;
+  font-size: 45px;
+  border-radius: 10px;
+  border: 2px groove grey;
+  background-color: #0073e6;
+  cursor: pointer;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -o-user-select: none;
+}

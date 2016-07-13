@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Boltz</title>
+    <link rel="stylesheet" href="../css/stylesheet.css" type="text/css" />
+  </head>
+
+  <body>
+    <div class="navbar">
+      <ul>
+        <li><a href="register.html">Register</a></li>
+        <li><a href="login.html" class="active">Login</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li id="logo"><a style="padding: 0px 50px;" href="index.html"><img src="../images/logo.png"></a></li>
+      </ul>
+    </div>
+
+    <div id="loginBox">
+      <form method="post" autocomplete="off">
+        <span style="color:#4d4d4d; font-weight:bold;">LOGIN</span> <br> <br>
+
+        <input type="text" name="username" placeholder="Username" required>
+
+        <input type="password" name="password" placeholder="Password" required>
+
+        <input type="submit" name="submit" value="SIGN IN" id="submitButton">
+      </form>
+    </div>
+
+    <script type="text/javascript" src="../js/submitButton.js"> </script>
+  </body>
+</html>
