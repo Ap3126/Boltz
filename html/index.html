@@ -6,31 +6,33 @@
   </head>
 
   <body>
-  	<div class="navbar">
+  	<div id="navbar">
   		<ul>
-        <li><a href="register.html">Register</a></li>
-        <li><a href="login.html">Login</a></li>
-        <li><a href="index.html" class="active">Home</a></li>
-        <li id="logo"><a style="padding: 0px 50px;" href="index.html"><img src="../images/logo.png"></a></li>
+        <li><a id="register">Register</a></li>
+        <li><a id="login">Login</a></li>
+        <li><a id="home">Home</a></li>
+        <li id="logo"><a id="logoClick" style="padding: 0px 50px;"><img src="../images/logo.png"></a></li>
 			</ul>
   	</div>
 
-    <div id="title">
-      How To Play
+    <div id="page">
+      <div id="title">
+        How To Play
+      </div>
+
+      <div id="description">
+        <ul>
+          <li class="label">1. Someone begins at 7</li>
+          <li class="label">2. Next person adds 7</li>
+          <li class="label">3. Who doesn't get a multiple of 7 drinks</li>
+        </ul>
+      </div>
+
+      <div id="play">
+        PLAY NOW
+      </div>
     </div>
 
-    <div id="description">
-      <ul>
-        <li class="label">1. Someone begins at 7</li>
-        <li class="label">2. Next person adds 7</li>
-        <li class="label">3. Who doesn't get a multiple of 7 drinks</li>
-      </ul>
-    </div>
-
-    <div id="play">
-      PLAY NOW
-    </div>
-
-    <script type="text/javascript" src="../js/playButton.js"> </script>
+    <script type="text/javascript" src="../js/homeAnimations.js"> </script>
   </body>
 </html>
