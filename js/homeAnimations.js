@@ -211,8 +211,10 @@ function createLoginWindow()
   span.style.fontWeight = "bold";
   span.innerHTML = "LOGIN";
 
-  document.write += "<br>";
-  document.write += "<br>";
+  var space = document.createElement("div");
+  space.innerHTML = "&nbsp";
+  form.appendChild(space);
+  space.style.height = "22px";
 
   var username = document.createElement("input");
   form.appendChild(username);
@@ -267,8 +269,10 @@ function createRegisterWindow()
   span.style.fontWeight = "bold";
   span.innerHTML = "REGISTER";
 
-  document.write += "<br>";
-  document.write += "<br>";
+  var space = document.createElement("div");
+  space.innerHTML = "&nbsp";
+  form.appendChild(space);
+  space.style.height = "22px";
 
   var username = document.createElement("input");
   form.appendChild(username);
