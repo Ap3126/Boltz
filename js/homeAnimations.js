@@ -306,7 +306,7 @@ function createRegisterWindow()
   form.appendChild(submit);
   submit.type = "submit";
   submit.name = "submit";
-  submit.value = "SIGN IN";
+  submit.value = "SIGN UP";
   submit.id = "submitButton";
 
   submitButton = document.getElementById("submitButton");
